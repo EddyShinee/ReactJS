@@ -25,6 +25,7 @@ class Demo extends Component {
   render() {
     return (
      <div>
+<<<<<<< HEAD
          <nav className="navbar navbar-expand-lg navbar-light bg-success">
              <a className="navbar-brand" href="#">Logo</a>
              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,6 +55,11 @@ class Demo extends Component {
                  </ul>
              </div>
          </nav>
+=======
+       <Welcome lastname="thuan" />
+       <Welcome lastname="thuan" />
+       <Welcome lastname="thuan" />
+>>>>>>> master
      </div>
     );
   }
