@@ -3,11 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header'
 
 class Demo extends Component {
+  onClick() {
+    console.log("Appp ");
+  }
   render() {
   var products = [
     {
       id: 1,
-      name: 'Iphone 7 Plus 16GB',
+      name: 'Iphone 7 Plus 16GB - Màu đen - Màu đỏ',
       price: '15.000.000',
       image: 'https://cdn.tgdd.vn/Products/Images/42/78124/iphone-7-plus-gold-400x460.png'
     },
@@ -34,7 +37,11 @@ class Demo extends Component {
     return (
       <div className='row'>
           { elements }
+          <div>
+        <button type="button" className="btn btn-warning" onClick={this.onClick}>Click Me</button>
         </div>
+        </div>
+       
       );
   }
 }

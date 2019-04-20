@@ -5,7 +5,6 @@ class Header extends Component{
     {
         return(
             <div className="border">
-              
                 <div>
                     <img src={this.props.image} alt={this.props.name} />
                 </div>
