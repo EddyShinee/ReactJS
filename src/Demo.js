@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header'
+import Header from './components/Header';
+import Button from '@material-ui/core/Button';
 
 class Demo extends Component {
   onClick() {
@@ -32,13 +33,16 @@ class Demo extends Component {
     return(
     <div className='col-4'>
     <Header key={index} name={product.name} price={product.price} image={product.image}/>
+      <Button variant="contained" color="primary">
+        Click me man
+      </Button>
     </div>
       )});
     return (
       <div className='row'>
           { elements }
           <div>
-        <button type="button" className="btn btn-warning" onClick={this.onClick}>Click Me</button>
+        {/*<button type="button" className="btn btn-warning" onClick={this.onClick}>Click Me</button>*/}
         </div>
         </div>
        
