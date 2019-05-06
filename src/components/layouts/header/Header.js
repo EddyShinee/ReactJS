@@ -32,6 +32,11 @@ class Header extends Component{
                                 <a className="dropdown-item" href="#">Sản phẩm C</a>
                             </div>
                         </li>
+                        <li>
+                            <div className="nav-item">
+                                <a className="nav-link" href="#">VŨ ĐỨC THUẬN CHECK</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
