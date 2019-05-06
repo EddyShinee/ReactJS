@@ -24,7 +24,7 @@ class App extends Component {
           >
             Learn React
           </a>
-            <p className="Demo"></p>
+            <p className="Demo"/>
         </header>
       </div>
     );
