@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
+import Product from './Product';
 import Button from '@material-ui/core/Button';
 
-class Demo extends Component {
-    onClick() {
-        console.log("Appp ");
-    }
+class Content extends Component {
+
     render() {
         var products = [
             {
@@ -32,22 +30,16 @@ class Demo extends Component {
         let elements = products.map((product, index) => {
             return(
                 <div className='col-4'>
-                    <Header key={index} name={product.name} price={product.price} image={product.image}/>
-                    <Button variant="contained" color="primary">
-                        Click me man
-                    </Button>
+                    <Product key={index} name={product.name} price={product.price} image={product.image}/>
                 </div>
             )});
         return (
             <div className='row'>
                 { elements }
-                <div>
-                    <button type="button" className="btn btn-warning" onClick={this.onClick}>Click Me</button>
-                </div>
             </div>
 
         );
     }
 }
 
-export default Demo;
+export default Content;
