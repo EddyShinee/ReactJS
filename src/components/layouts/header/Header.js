@@ -34,7 +34,12 @@ class Header extends Component{
                         </li>
                         <li>
                             <div className="nav-item">
-                                <a className="nav-link" href="#">VŨ ĐỨC THUẬN CHECK</a>
+                                <a className="nav-link" href="#">Đăng nhập</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="nav-item">
+                                <a className="nav-link" href="#">Đăng ký</a>
                             </div>
                         </li>
                     </ul>

@@ -32,7 +32,7 @@ class Product extends Component{
                 </div>
                 <div>
                     <b>
-                        {this.props.price}
+                        {this.props.price}đ
                     </b>
                 </div>
                 <div>

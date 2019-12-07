@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Product from './Product';
-import Button from '@material-ui/core/Button';
 
 class Content extends Component {
 
@@ -24,12 +23,42 @@ class Content extends Component {
                 name: 'Oppo F11S - 64GB',
                 price: '12.000.000',
                 image: 'https://cdn.tgdd.vn/Products/Images/42/199041/vivo-v15-quanghai-400x460.png'
+            },
+            {
+                id: 3,
+                name: 'Oppo F11S - 64GB',
+                price: '12.000.000',
+                image: 'https://cdn.tgdd.vn/Products/Images/42/199041/vivo-v15-quanghai-400x460.png'
+            },
+            {
+                id: 3,
+                name: 'Oppo F11S - 64GB',
+                price: '12.000.000',
+                image: 'https://cdn.tgdd.vn/Products/Images/42/199041/vivo-v15-quanghai-400x460.png'
+            },
+            {
+                id: 3,
+                name: 'Oppo F11S - 64GB',
+                price: '12.000.000',
+                image: 'https://cdn.tgdd.vn/Products/Images/42/199041/vivo-v15-quanghai-400x460.png'
+            },
+            {
+                id: 3,
+                name: 'Oppo F11S - 64GB',
+                price: '12.000.000',
+                image: 'https://cdn.tgdd.vn/Products/Images/42/199041/vivo-v15-quanghai-400x460.png'
+            },
+            {
+                id: 3,
+                name: 'Oppo F11S - 64GB',
+                price: '12.000.000',
+                image: 'https://cdn.tgdd.vn/Products/Images/42/199041/vivo-v15-quanghai-400x460.png'
             }
         ];
 
         let elements = products.map((product, index) => {
             return(
-                <div className='col-4'>
+                <div className='col-3'>
                     <Product key={index} name={product.name} price={product.price} image={product.image}/>
                 </div>
             )});
