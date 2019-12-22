@@ -43,6 +43,6 @@ class Login extends Component {
         );
     }
 }
-export default Register;
+export default Login;
 
 

@@ -6,7 +6,6 @@ class Register extends Component {
 
     showName = () => {
         console.log(this.refs.name.value);
-
     }
     render() {
         return (
