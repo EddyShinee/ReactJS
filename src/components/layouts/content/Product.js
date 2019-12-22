@@ -1,29 +1,30 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
-class Product extends Component{
+class Product extends Component {
     constructor(props) {
         super(props);
         this.addToCard = this.addToCard.bind(this);
     }
+
     addToCard() {
         alert("Mua thành công sản phẩm: " + this.props.name);
         console.log(1);
         this.test('abc', this.addToFavo);
     }
-        addToFavo = () => {
-            alert("Mua thành công sản phẩm: " + this.props.name);
-        }
 
-        test(a,b){
-            console.log('test');
-        }
+    addToFavo = () => {
+        alert("Mua thành công sản phẩm: " + this.props.name);
+    }
 
-    render()
-    {
-        return(
+    test(a, b) {
+        console.log('test');
+    }
+
+    render() {
+        return (
             <div className="border">
                 <div>
-                    <img src={this.props.image} alt={this.props.name} />
+                    <img src={this.props.image} alt={this.props.name}/>
                 </div>
                 <div>
                     <h4>
@@ -43,4 +44,5 @@ class Product extends Component{
         );
     }
 }
+
 export default Product;

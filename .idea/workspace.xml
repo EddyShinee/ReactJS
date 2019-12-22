@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7c72af25-6782-404f-8093-cac54d5e10c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/content/forms/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/content/forms/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/content/forms/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/content/forms/login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/content/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/content/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,6 +102,9 @@
       <workItem from="1575873226103" duration="8644000" />
       <workItem from="1575888631626" duration="26000" />
       <workItem from="1576048105077" duration="1667000" />
+      <workItem from="1577016291416" duration="217000" />
+      <workItem from="1577016539553" duration="120000" />
+      <workItem from="1577016680691" duration="4199000" />
     </task>
     <servers />
   </component>
@@ -128,9 +128,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="181" key="#ESLint" timestamp="1575881287648">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="442" y="144" key="#ESLint" timestamp="1577017519765">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="442" y="144" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1577017519765" />
     <state x="552" y="181" key="#ESLint/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1575881287648" />
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575872919410">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -160,9 +161,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="257" key="IDE.errors.dialog/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1575884524048" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1575884986633">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="369" y="114" key="SettingsEditor" timestamp="1577016657396">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="369" y="114" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1577016657396" />
     <state x="461" y="164" key="SettingsEditor/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1575884986633" />
   </component>
 </project>
