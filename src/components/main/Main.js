@@ -8,7 +8,8 @@ class Main extends Component {
         super(props);
         this.state = {
             value: 'ss',
-            thuan: ''
+            thuan: '',
+            typeTruits: 'lime'
         }
 
         this.handleChange = this.handleChange.bind(this);
@@ -17,7 +18,11 @@ class Main extends Component {
     }
 
     handleChange(event) {
-        this.setState({value: event.target.value, thuan: event.target.value});
+        this.setState({
+            value: event.target.value,
+            thuan: event.target.value.toUpperCase(),
+            typeTruits: event.target.value
+        });
     }
 
     handleSubmit(event) {
@@ -29,6 +34,12 @@ class Main extends Component {
         return (
             <form onSubmit={this.handleSubmit}>
                 <div>{this.state.thuan}</div>
+                <select value={this.state.typeTruits} onChange={this.handleChange}>
+                    <option value="grapefruit">Grapefruit</option>
+                    <option value="lime">Lime</option>
+                    <option selected value="coconut">Coconut</option>
+                    <option value="mango">Mango</option>
+                </select>
                 <label>
                     Name:
                     <input type="text" value={this.state.value} onChange={this.handleChange}/>
