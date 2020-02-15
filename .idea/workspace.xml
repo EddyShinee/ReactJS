@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c72af25-6782-404f-8093-cac54d5e10c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
-    </list>
+    <list default="true" id="7c72af25-6782-404f-8093-cac54d5e10c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +100,7 @@
       <workItem from="1577016291416" duration="217000" />
       <workItem from="1577016539553" duration="120000" />
       <workItem from="1577016680691" duration="4542000" />
-      <workItem from="1577066825520" duration="335000" />
+      <workItem from="1577066825520" duration="392000" />
     </task>
     <servers />
   </component>
@@ -165,5 +162,13 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1577016657396" />
     <state x="461" y="164" key="SettingsEditor/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1575884986633" />
+    <state x="715" y="366" key="cloudConfig.SelfSettingsDialog" timestamp="1577067190579">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="715" y="366" key="cloudConfig.SelfSettingsDialog/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1577067190579" />
+    <state x="751" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577067199681">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="751" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1577067199681" />
   </component>
 </project>

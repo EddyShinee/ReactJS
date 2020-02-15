@@ -14,7 +14,7 @@ import Main from './components/main/Main';
 // ReactDOM.render(<Content />, document.getElementById('content'));
 // ReactDOM.render(<Footer />, document.getElementById('footer'));
 // ReactDOM.render(<Register />, document.getElementById('register'));
-ReactDOM.render(<Main/>, document.getElementById('container'))
+ReactDOM.render( < Main / > , document.getElementById('container'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
